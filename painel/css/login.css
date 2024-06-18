@@ -1,0 +1,14 @@
+* {margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 100%;}
+
+.caixa-principal {width: 100%;height: 100vh;display: flex;justify-content: center;align-items: center;}
+.caixa-central {display: flex;align-items: center;background: linear-gradient(12deg, var(--vermelho) 0%, #841e1e 100%);}
+.esq {width: 15rem;background: #2727272d;padding: 1rem;margin: 0.5rem;}
+
+.esq { height: 80%;}
+.caixa-central, .esq {border-radius: 20px;}
+.titlogin {color: white;font-weight: bold;font-size: 1.5rem;display: flex;align-items: center;justify-content: center;height: 3rem;}
+.form-control {border: 0px;border-radius: 15px;width: 95%;padding: 0.5rem;font-size: 1rem;}
+
+.btn-conectar {border: 0px;border-radius: 15px;background: #ffffff;color: #5a5959;font-weight: bold;font-size: 0.75rem;padding: 0.5rem; margin: 0.5rem;cursor: pointer;transition: 0.2s;}
+.btn-conectar:hover {background: #601616; color: var(--branco);}
+.pai-conectar {display: flex;justify-content: center;}

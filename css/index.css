@@ -1,0 +1,21 @@
+* {margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 100%;}
+header, main, footer{width: 100%; float: left;display: flex;justify-content: center;}
+.center{width: 96%; max-width: 900px;}
+
+header{background: var(--preto);}
+header .alinha-menu{width: 100%;padding: 20px 0; display: flex; justify-content: space-between; align-items: center;}
+header .alinha-menu .logo{padding: 8px 20px; display: flex; justify-content: center; align-items: center; background: var(--vermelho);}
+header .alinha-menu .logo p{}
+header .alinha-menu .botoes{display: flex;align-items: center;justify-content: center; gap: 20px;}
+header .alinha-menu .botoes .padrao{text-decoration: none; color: var(--branco);}
+
+main{min-height: 80vh;padding: 5vh 0;}
+main .alinha-main{width: 100%;padding: 20px 0; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 50px}
+main .alinha-main .padrao{width: 100%;padding: 8px; display: flex; gap: 3%; border: 1px solid #ddd}
+main .alinha-main .padrao .img{min-width: 200px; width: 200px; height: 200px; display: flex; justify-content: center; align-items: center;}
+main .alinha-main .padrao .img img{object-fit: cover}
+main .alinha-main .padrao .infos{width: 80%;}
+
+footer{background: var(--preto);}
+footer .alinha-footer{width: 100%;padding: 20px 0;}
+footer .alinha-footer p{color: var(--branco);text-align: center;}

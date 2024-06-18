@@ -1,0 +1,16 @@
+/*===== ALERTAS SOBRE A PUBLICACAO =====*/
+.alerta {margin: auto; position: fixed; padding: 0.5rem; left: 50%; bottom: 15px; transform: translate(-50%, 0); display: flex;align-items: center;gap: 10px;}
+.alerta.amarelo {background-color: #d6ff66;border: 3px solid  #b7e731;}
+.alerta.vermelho {background-color: #ff574d;border: 3px solid  #ff261b;}
+.alerta.verde{background-color: #3cb371;border: 3px solid  #308f5a;}
+.alerta.cinza {background-color: #c9c9c9;border: 3px solid  #a1a1a1;}
+.alinhar {display: flex;align-items: center;justify-content: center;}
+
+/*alerta*/
+.alinharE {display: flex;align-items: center;justify-content: space-between;}
+.espacim {padding-left: 0.5rem;}
+.alinharE .load{box-sizing: content-box;}
+
+/*css do simbolo de loading*/
+.alerta.verde::after{content:" "; animation: is-rotating 1s infinite;border: 4px solid #e5e5e5;border-radius: 50%;border-top-color: #51d4db;height: 1rem;min-width: 1rem;display: inline-flex;}
+@keyframes is-rotating { to { transform: rotate(1turn); }}
